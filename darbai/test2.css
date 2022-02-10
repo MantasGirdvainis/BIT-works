@@ -1,0 +1,14 @@
+body {
+background: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/305634821.jpg?k=3d5fa70e1933d94d00eaf0ab779be8ec995edc0fee0bdabb94469e3267637d33&o=&hp=1);
+background-size: cover;
+
+}
+.title {
+    color:crimson; background: #752fd6;
+}
+.para-text {
+    color: #752fd6;
+}
+.input {
+    color: aquamarine;
+}

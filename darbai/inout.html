@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+
+<body>
+    <label>
+        Telefono numeris:
+        <input type="text" placeholder="+3706000000" />
+    </label>
+    <div>
+        <label for="telefono-numeris">Telefono numeris</label>
+        <input type="text" placeholder="+37060233220" id="telefono-numeris" />
+    </div>
+    <div>
+        <label for="telefono-numeris2">bandymas2</label>
+        <input type="text" placeholder="+37069999" id="telefono-numeris2" />
+    </div>
+    <div>
+        <form action="./input2.html" method="get">
+            <label>
+                Vardas
+                <input type="text" placeholder="Vardas" name="vardas" />
+            </label>
+            <label>
+                Pavardė
+                <input type="text" placeholder="Pavardė" name="pavardė" />
+            </label>
+            <button>Pateikti</button>
+        </form>
+    </div>
+    <h1>Banom naują formą</h1>
+    <form action="./input2.html" method="get">
+        <fieldset>
+            <legend>Pirma forma</legend>
+            <div>
+                <label>
+                    Vardas
+                    <input type="text" name="vardas" style="font-size: large;" autocomplete="off" />
+                </label>
+            </div>
+            <div><label>
+                    Pavardė
+                    <input type="text" name="pavarde" style="color: blue; text-align: end;" />
+                </label></div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <legend>Antra forma</legend>
+                <label>
+                    Telefonas
+                    <input type="text" name="telefonas" style="background-color: aqua;" />
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Pateikti" />
+            </div>
+        </fieldset>
+    </form>
+    <h2>Textarea langas</h2>
+    <textarea name="zinute_serveriui" style="width:121px; height:154px; resize: none;"></textarea>
+    <div><input type="number" value="5" /></div>
+    <form>
+        <div>
+            <input type="text" required id="tekstas" minlength="2" maxlength="15" readonly />
+            <label for="tekstas">Tekstas</label>
+            <button>Patiekti</button>
+        </div>
+        <div>
+            <input type="url"/>
+        </div>
+        <div>
+            <input type="date"/>
+            </div>
+
+        <div>
+            <input type="time"/>
+        </div>
+        <div>
+            <input type="datetime-local"/>
+        </div>
+        <div>
+            <input type="checkbox" name="lauko-reiksme" checked/>
+        </div>
+    </form>
+</body>
+
+</html>
