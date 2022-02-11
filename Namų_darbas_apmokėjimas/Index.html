@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apmokėjimo forma</title>
+</head>
+
+<body>
+    <h1>Apmokėjimo forma</h1>
+    Privalomi laukai pažymėti..*-
+    <h2>Kontaktinė informacija</h2>
+    <form action="./Pridavimo_puslapis.html" method="get"/>
+        <fieldset name="title">
+            <legend>Kreipinys:</legend>
+            <input type="radio" name="Ponas" value="Ponas" id="Ponas" />
+            <label for="ponas">Ponas</label>
+            <br />
+            <input type="radio" name="Ponia" value="Ponia" id="Ponia" <label for="Ponia">Ponia</label>
+            <br>
+            <input type="radio" name="Nesvarbu" value="Nesvarbu" id="Nesvarbu" />
+            <label for="Nesvarbu">Nesvarbu</label>
+        </fieldset>
+        <br>
+        <label>
+            Vardas:..*
+            <input type="text" minlength="2" maxlength="50" name="name" required />
+        </label>
+        <br>
+        <br>
+        <label>
+            Pavardė:..*
+            <input type="text" minlength="2" maxlength="50" name="lastname" required />
+        </label>
+        <br>
+        <br>
+        <label>
+            El. paštas:..*
+            <input type="email" name="email" required />
+        </label>
+        <br>
+        <br>
+        <label>
+            Slaptažodis:..*
+            <input type="password" name="password" minlength="5" required />
+        </label>
+        <h2>Apmokėjimo informacija</h2>
+        <label>
+            Kortelės tipas:
+            <select name="cardtype" required>
+                <option value="Visa">Visa</option>
+                <option value="Mc">MasterCard</option>
+                <option value="Amex">American Express</option>
+            </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                Kortelės numeris:
+                <input type="text" name="cardnumber" required/>
+            </label>
+            <br>
+            <br>
+            <label>
+                Galiojimo data:
+                <input type="date" name="expiration" required/>
+            </label>
+            <button>Pateikti</button>
+    </form>
+</body>
+
+</html>
