@@ -1,0 +1,83 @@
+body{
+    background-color: #11cfcf;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family:cursive;
+}
+.d1 {
+    height: 500px; 
+    width: 50%;  
+    float: left;
+
+}
+.d2 {
+    height: 500px; 
+    width: 50%; 
+    float: left; 
+}
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+.name {
+    width: 350px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 12px 20px;
+
+}
+.email {
+    width: 350px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 12px 20px;
+}
+.company {
+    width: 153px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 12px 20px;
+}
+.phone {
+    width: 153px;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    
+}
+.textarea {
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 3px;
+    resize: none;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: yellow;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button2 {
+    position: relative;
+    left: 260px;
+}
+
+.description {
+    color: white;
+    font-family:cursive;
+    padding-left: 100px;
+    
+}
+.map {
+    color: yellow;
+}
+

@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(212,230,254,255);
+}
+
+form {
+    background-color: white;
+    max-width: fit-content;
+    padding: 30px 60px;
+    margin: auto;
+}
+
+.langas {
+border-radius: 5px;
+width: 5cm;
+height: 1cm;
+background-color: rgba(231,233,254,255);
+border: none;
+
+}
+
+::placeholder {
+    color: blue;
+}
+
+#address {
+     color: #c7cdfd;
+     width: 10.3cm;
+ }
+
+.langas2 {
+    width: 10.3cm;
+    background-color: #a5b1fd;
+}
+
+#textarea {
+    resize: none;
+    height: 50px;
+}
+
+#button{
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 140px;
+    border: none;
+
+}
+
+#last {
+    color: chartreuse;
+    font-size: smaller;
+}
+
+#title {
+    color: #6c6cf7;
+    font-size: x-large;
+}
+
+h1{
+    font-weight: 100;
+    color: #6c6cf7;
+}
