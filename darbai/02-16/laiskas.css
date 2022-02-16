@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+div {
+    width: 800px;
+    border:1px solid black;
+    background-color:lavender;
+    text-align: justify;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace
+}
+
+#Kreip {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#Kreip2 {
+    font-size: 20px;
+    
+}
+
+.atsisveikinimas {
+    text-align: right;
+    
+}
+
+#atitraukimas {
+    margin-top: 20px;
+}
+
+#data {
+    font-weight: bold;
+}
+
+#adresas {
+    margin-bottom: 50px;
+}
